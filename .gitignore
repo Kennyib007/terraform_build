@@ -1,2 +1,6 @@
-.terraform
-.terraform.tfstate.*
+# Ignore local state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore the entire .terraform directory (plugin data, local ops)
+.terraform/
