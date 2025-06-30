@@ -20,13 +20,3 @@ This Terraform project provisions:
 While provisioner `local-exec` works for this use case it is recommended as a last case option for configuration management. The project will be continously refactored to improve general structure.
 
 ---
-
-## File Structure
-.
-├── main.tf               # Main Terraform config
-├── variables.tf          # Input variables
-├── outputs.tf            # Output values (like instance IP)
-├── provider.tf           # AWS provider setup
-├── terraform.tfvars      # User-defined variable values
-└── .gitignore            # Ignores sensitive and state files
-
